@@ -1,13 +1,21 @@
 #!/bin/bash
 
-read -p "enter the username : " username
+scriptname=$0
+firstarg=$1
+secondarg=$2
+numberofarguments=$*
+totalarguments=$#
 
-echo "my name is $username"
 
+echo "scriptname is $scriptname"
 
-read -sp "enter the password : " pass
+echo "first argument is $1"
+echo "second argument is $2"
 
-echo "password is $pass"
+echo "number of argumnents is $numberofarguments"
+
+echo "total arguments passed is $totalarguments"
+
 
 
 
