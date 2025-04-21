@@ -1,10 +1,13 @@
 #!/bin/bash
 
+id=$(id -u)
 
-ad=$((1+dfdfdf))
+if [ $id -ne 0 ]; then
+echo "you are not root user , you cannot continue the script"
+fi
 
 
-echo "sum of two values are $ad"
+
 
 
 
