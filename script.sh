@@ -17,6 +17,14 @@ else
 echo " installation of nginx is success"
 fi
 
+yum install httpd -y
+
+if [$? -ne 0]; then
+echo " installtion  of httpd  is failure" 
+else 
+echo " installation of httpd is success"
+fi
+
 
 
 
