@@ -9,6 +9,13 @@ echo " you are root user u can continue the script"
 fi
 
 
+yum install nginx -y 
+
+if [$? -ne 0]; then
+echo " installtion  of nginx  nginx is failure" 
+else 
+echo " installation of nginx is success"
+fi
 
 
 
