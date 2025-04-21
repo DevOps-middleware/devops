@@ -1,8 +1,9 @@
 #!/bin/bash
 
-date=$(date +%F-%H:%M:%S)
+names=(vasim nazeer)
 
-echo "Today date is $date"
+echo "my name is ${names[0]}"
+echo "mys friend name is ${names[1]}"
 
 
 
