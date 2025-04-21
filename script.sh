@@ -2,6 +2,14 @@
 
 id=$(id -u)
 
+validate () {
+    if [ $1 -ne 0 ]; then
+      echo "$2 is failure"
+      else
+      echo "$2 is success"
+    fi
+    }
+
 if [ $id -ne 0 ]; then
 echo "you are not root user , you cannot continue the script"
  else
@@ -10,21 +18,10 @@ fi
 
 
 yum install nginx -y 
-
-if [$? -ne 0]; then
-echo " installtion  of nginx  nginx is failure" 
-else 
-echo " installation of nginx is success"
-fi
+validate $? nginx
 
 yum install httpd -y
-
-if [$? -ne 0]; then
-echo " installtion  of httpd  is failure" 
-else 
-echo " installation of httpd is success"
-fi
-
+validate $? htpd
 
 
 
