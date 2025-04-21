@@ -1,10 +1,14 @@
 #!/bin/bash
 
-name1=vasim
-name2=nazeer
+read -p "enter the username : " username
 
-echo "my name is $name1"
+echo "my name is $username"
 
-echo "my name is $name2"
+
+read -sp "enter the password : " pass
+
+echo "password is $pass"
+
+
 
 
