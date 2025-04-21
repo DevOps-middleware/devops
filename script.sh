@@ -1,9 +1,11 @@
 #!/bin/bash
 
-names=(vasim nazeer)
 
-echo "my name is ${names[0]}"
-echo "mys friend name is ${names[1]}"
+ad=$((1+2))
+
+
+echo "sum of two values are $ad"
+
 
 
 
