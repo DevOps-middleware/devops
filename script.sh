@@ -5,8 +5,8 @@
 NUM=$1
 
 
-  if [ $NUM -greater 10 ] ; then
-  echo " $NUM if not greater than 10."
+  if [ $NUM -gt 10 ] ; then
+  echo " $NUM if greater than 10
   else
-  echo " $NUM is greater than 10"
+  echo " $NUM is not greater tan 10"
   fi
