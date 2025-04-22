@@ -1,9 +1,9 @@
 #!/bin/bash
 
-FILE=/home/centos/file.txt
+FILE=/home/centos/vasim
 
 
-if [ -f $FILE ]; then
+if [ -d $DIR ]; then
 echo "file is present"
 else
 echo "file is not present"
