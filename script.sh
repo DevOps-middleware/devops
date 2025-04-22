@@ -1,11 +1,8 @@
 #!/bin/bash
 
+if [ 10 -eq 10 ] && [ 9 -eq 9]; then
 
-abc=$1
-
-
-if [ abc != $abc ]; then
-  echo "provided value abc is not correct"
-  else 
-  echo " provided value abc is  correct"
-  fi
+echo "logical and is success"
+else
+echo "failure"
+fi
