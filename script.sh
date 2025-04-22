@@ -1,8 +1,11 @@
 #!/bin/bash
 
-ls -lrth
-if [ $? -eq 0 ]; then
-  echo " installing of nginx is success"
+
+abc=$1
+
+
+if [ abc == $abc ]; then
+  echo "provided value abc is correct"
   else 
-  echo " install of nginx is not success"
+  echo " provided value abc is not correct"
   fi
