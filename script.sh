@@ -1,8 +1,7 @@
 #!/bin/bash
 
-if [ 10 -eq 10 ] && [ 9 -eq 9]; then
+for i in {1..100}
+do
+  echo $i
 
-echo "logical and is success"
-else
-echo "failure"
-fi
+done
