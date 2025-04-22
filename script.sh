@@ -1,12 +1,11 @@
 #!/bin/bash
 
-FILE=/home/centos/vasim
+USER=$1
 
 
-if [ -d $DIR ]; then
-echo "file is present"
-else
-echo "file is not present"
-fi
-
+if [ -z $USER]; then
+  echo " user has provided input u can continue"
+  else 
+  echo "user has not provided input u cannot continue"
+  fi
 
