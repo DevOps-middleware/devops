@@ -1,10 +1,12 @@
 #!/bin/bash
 
-USER=$1
 
 
-if [ -z $USER ]; then
-  echo "user has not provided input u cannot cpntinue"
-  else 
-  echo "user has provided input u can continue"
+NIUM=$1
+
+
+  if [ $NUM -gt 10] ; then
+  echo " $NUM if not greater than 10."
+  else
+  echo " $NUM is greater than 10"
   fi
